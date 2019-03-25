@@ -21,7 +21,7 @@ AR=gar
 AS=gas
 NM=nm
 
-CFLAGS += -Wall -O2 -I./include -D_LINUX_
+CFLAGS += -Wall -O2 -I./include -D__LINUX__
 LIBS = 
 OBJECTS = main.o 
 
